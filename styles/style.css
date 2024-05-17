@@ -1,0 +1,105 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  color: #f8f8f8;
+}
+
+.top-header {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #a5c926;
+  height: 32px;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.top-nav {
+  padding-top: 8px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-text {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.E-address {
+  text-decoration: none;
+  color: #fff;
+}
+
+.media {
+  color: #fff;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.med {
+  color: #fff;
+}
+
+.media a:hover > i {
+  color: #51a945;
+}
+
+.main-header {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  height: 64px;
+  font-family: "Varela Round", sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.nav-menu {
+  text-decoration: none;
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-name {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.main-menu {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-shop {
+  display: flex;
+  gap: 16px;
+  color: #333333;
+}/*# sourceMappingURL=style.css.map */
